@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://NataliiaValko.github.io/parcel-project-template",
+  "homepage": "https://LukeBrutale.github.io/parcel-project-template",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url /parcel-project-template/",
+    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -23,7 +23,7 @@
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.3",
-    "posthtml-include": "^1.4.3",
+    "posthtml-include": "^1.7.2",
     "sass": "^1.26.9"
   },
   "optionalDependencies": {
